@@ -9,7 +9,7 @@ using namespace std;
 const unsigned int DISP_WIDTH = 640;
 const unsigned int DISP_HEIGHT = 480;
 
-int SDL_main(int argc, char *args[]) {
+int main(int argc, char *args[]) {
 	
 	// The window
 	SDL_Window *window = NULL;
@@ -78,8 +78,4 @@ int SDL_main(int argc, char *args[]) {
 		
 		return EXIT_SUCCESS;
 }
-
-int main(int argc, char** argv) {
-		return SDL_main(argc, argv);
-	}
 
